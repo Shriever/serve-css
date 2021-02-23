@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eee;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.row {
+  display: flex;
+}
+.box {
+  background: #7f99;
+  height: 200px;
+  width: 200px;
+  margin: 5px;
+  border-radius: 5px;
+  transition: ease-out 1.2s;
+}
+.box:hover {
+  transform: scale(1.1);
+  background: rgba(34, 253, 89, 0.76);
+}
+.fancy-text {
+  font-style: italic;
+}
